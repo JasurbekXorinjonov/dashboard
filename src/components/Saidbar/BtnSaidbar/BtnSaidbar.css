@@ -1,0 +1,23 @@
+.sidebar-btn {
+  display: flex;
+  padding: 18px 24px 18px 32px;
+  align-items: center;
+  color: var(--sidebar-gray, #a4a6b3);
+  background: #363740;
+  border: none;
+  cursor: pointer;
+}
+.sidebar-btn:hover {
+  background: #9fa2b456;
+  color: var(--accent-light, #dde2ff);
+  border-left: 3px solid #dde2ff;
+}
+.sidebar-btn span {
+  margin-left: 24px;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.2px;
+}
