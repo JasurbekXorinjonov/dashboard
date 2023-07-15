@@ -1,4 +1,42 @@
 .navbar-container {
   display: flex;
-  padding: 20px;
+  align-items: center;
+  height: 44px;
+  padding: 55px 33px 54px 30px;
+}
+.btn-admin {
+  border: none;
+  background-color: #f7f8fc;
+  display: flex;
+  align-items: center;
+  border-left: 1px solid #dfe0eb;
+}
+.btn-admin a {
+  text-decoration: none;
+  color: var(--grayscale-black, #252733);
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.2px;
+  margin: 0 14px 0 32px;
+}
+.btn-admin img {
+  width: 40px;
+  height: 40px;
+}
+.navbar-title {
+  width: 771px;
+  color: var(--grayscale-black, #252733);
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  /* margin-right: 64px; */
+}
+.notic-icon {
+  margin: 0 32px 0 24px;
 }

@@ -1,9 +1,14 @@
 .w-full {
   width: 100%;
 }
+.d-flex {
+  display: flex;
+}
 .block {
   display: block;
 }
 .app-container {
   display: flex;
+  max-width: 1500px;
+  margin: 0 auto;
 }

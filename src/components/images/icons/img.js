@@ -134,20 +134,4 @@ const Subscription = () => {
   );
 };
 
-const Search = () => {
-  return (
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-      <g clip-path="url(#clip0_303_2475)">
-        <circle cx="6.5" cy="6.5" r="5.75" stroke="#C5C7CD" stroke-width="1.5" />
-        <path d="M11 11L15 15" stroke="#C5C7CD" stroke-width="1.5" stroke-linecap="round" />
-      </g>
-      <defs>
-        <clipPath id="clip0_303_2475">
-          <rect width="16" height="16" fill="white" />
-        </clipPath>
-      </defs>
-    </svg>
-  );
-};
-
-export { Logo, Chart, Tickets, Ideas, Contacts, Agents, Articles, Settings, Subscription, Search };
+export { Logo, Chart, Tickets, Ideas, Contacts, Agents, Articles, Settings, Subscription };
