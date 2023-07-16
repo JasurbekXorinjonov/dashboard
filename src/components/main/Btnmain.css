@@ -1,0 +1,51 @@
+.high {
+  padding: 5px 12px;
+  border: none;
+  border-radius: 100px;
+  background: var(--red-default, #f12b2c);
+  color: var(--grayscale-white, #fff);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-right: 72px;
+}
+.low {
+  padding: 5px 12px;
+  border: none;
+  border-radius: 100px;
+  background: var(--yellow-default, #fec400);
+  color: var(--grayscale-white, #fff);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-right: 72px;
+}
+.normal {
+  padding: 5px 12px;
+  border: none;
+  border-radius: 100px;
+  background: var(--green-default, #29cc97);
+  color: var(--grayscale-white, #fff);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-right: 50px;
+}

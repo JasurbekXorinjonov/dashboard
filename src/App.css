@@ -1,14 +1,21 @@
 .w-full {
   width: 100%;
 }
-.d-flex {
-  display: flex;
-}
+
 .block {
   display: block;
 }
 .app-container {
-  display: flex;
-  max-width: 1500px;
+  display: grid;
+  max-width: 1520px;
   margin: 0 auto;
+}
+.flex {
+  display: flex;
+}
+.jc-center {
+  justify-content: center;
+}
+.ai-center {
+  align-items: center;
 }
