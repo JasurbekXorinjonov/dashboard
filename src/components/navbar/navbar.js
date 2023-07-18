@@ -6,7 +6,7 @@ import "./navbar.css";
 function Navbar() {
   return (
     <div className="navbar-container">
-      <h1 className="navbar-title">Tickets</h1>
+      <h1 className="navbar-title">Overview</h1>
       <img src={Search} alt="Search icon" />
       <img src={Notification} alt="Notification icon" className="notic-icon" />
       <button className="btn-admin">

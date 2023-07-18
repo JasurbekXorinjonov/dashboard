@@ -16,6 +16,12 @@
 .jc-center {
   justify-content: center;
 }
+.jc-between {
+  justify-content: space-between;
+}
 .ai-center {
   align-items: center;
+}
+.ai-baseline {
+  align-items: baseline;
 }

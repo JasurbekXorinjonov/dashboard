@@ -21,3 +21,6 @@
   line-height: normal;
   letter-spacing: 0.2px;
 }
+a {
+  text-decoration: none;
+}

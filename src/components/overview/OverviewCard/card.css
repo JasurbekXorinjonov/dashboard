@@ -1,0 +1,200 @@
+.card {
+  width: 258px;
+  height: 134px;
+  border-radius: 8px;
+  border: 1px solid var(--grayscale-divider, #dfe0eb);
+  background: var(--grayscale-white, #fff);
+  margin-right: 35px;
+}
+.card:hover {
+  border: 1px solid var(--accent-default, #3751ff);
+  color: var(--accent-default, #3751ff);
+}
+.text {
+  color: var(--grayscale-gray, #9fa2b4);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  margin: 24px 0 12px 0;
+}
+.text:hover {
+  color: var(--accent-default, #3751ff);
+}
+.number {
+  color: var(--grayscale-black, #252733);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+.number:hover {
+  color: var(--accent-default, #3751ff);
+}
+.left-card {
+  border-bottom: 1px solid var(--grayscale-divider, #dfe0eb);
+}
+.left-card p {
+  padding: 32px 0 6px 32px;
+  color: var(--grayscale-gray, #9fa2b4);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.3px;
+  width: 278px;
+}
+.left-card span {
+  color: var(--grayscale-black, #252733);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  padding: 0 0 24px 32px;
+  width: 278px;
+  display: block;
+}
+.footer-card {
+  border-radius: 8px;
+  border: 1px solid var(--grayscale-divider, #dfe0eb);
+  background: var(--grayscale-white, #fff);
+  width: 546px;
+  height: 336px;
+  margin: 30px 30px 30px 0;
+}
+.head-text {
+  margin: 20px 32px 16px 32px;
+}
+.head-text h3 {
+  width: 336px;
+  color: var(--grayscale-black, #252733);
+  font-family: Mulish;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  margin-right: 64px;
+}
+.head-text p {
+  color: var(--accent-default, #3751ff);
+  text-align: right;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  width: 84px;
+}
+.group-text {
+  width: 336px;
+  color: var(--grayscale-gray, #9fa2b4);
+  font-family: Mulish;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  margin: 20px 32px 16px 32px;
+}
+.left-text h5 span {
+  color: var(--grayscale-gray-dark, #4b506d);
+  font-family: Mulish;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.1px;
+}
+.end-text {
+  border-bottom: 1px solid var(--grayscale-divider, #dfe0eb);
+}
+.end-text p:nth-child(1) {
+  width: 378px;
+  color: var(--grayscale-black, #252733);
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  margin: 20px 32px 18px 32px;
+}
+.end-text p:nth-child(2) {
+  width: 80px;
+  color: var(--grayscale-gray, #9fa2b4);
+  text-align: right;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+.border {
+  border: none;
+}
+
+.footer-card-left {
+  border-radius: 8px;
+  border: 1px solid var(--grayscale-divider, #dfe0eb);
+  background: var(--grayscale-white, #fff);
+  width: 546px;
+  height: 336px;
+  margin-top: 30px;
+}
+.end-text img {
+  width: 24px;
+  height: 24px;
+  margin-left: 40px;
+}
+input {
+  margin: 25px 16px 19px 32px;
+}
+label {
+  width: 336px;
+  color: var(--grayscale-black, #252733);
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.2px;
+  margin-right: 36px;
+}
+.btn-footer {
+  border-radius: 8px;
+  background: var(--yellow-default, #fec400);
+  border: none;
+  color: var(--grayscale-white, #fff);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: 5px 12px;
+  cursor: pointer;
+}
+.new {
+  background: var(--green-default, #29cc97);
+  margin-left: 19px;
+}
+.default {
+  background: var(--grayscale-gray-lightest, #f0f1f7);
+  color: var(--grayscale-gray, #9fa2b4);
+}
