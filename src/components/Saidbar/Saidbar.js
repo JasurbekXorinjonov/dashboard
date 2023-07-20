@@ -11,6 +11,7 @@ import {
   Subscription,
   Tickets,
 } from "../images/icons/img";
+import { Link } from "react-router-dom";
 
 function Saidbar() {
   return (
@@ -20,8 +21,12 @@ function Saidbar() {
         <h2>Dashboard Kit</h2>
       </div>
       <div>
-        <BtnSaidbar icon={<Chart />} title="Overview" />
-        <BtnSaidbar icon={<Tickets />} title="Tickets" />
+        <Link to={"/"}>
+          <BtnSaidbar icon={<Chart />} title="Overview" />
+        </Link>
+        <Link to={"/main"}>
+          <BtnSaidbar icon={<Tickets />} title="Tickets" />
+        </Link>
         <BtnSaidbar icon={<Ideas />} title="Ideas" />
         <BtnSaidbar icon={<Contacts />} title="Contacts" />
         <BtnSaidbar icon={<Agents />} title="Agents" />

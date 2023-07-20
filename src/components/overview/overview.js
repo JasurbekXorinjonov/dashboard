@@ -4,7 +4,7 @@ import { Card, FooterCard, FooterCardLeft, LeftCard } from "./OverviewCard/card"
 function Overview() {
   return (
     <div className="overview">
-      <div className="cards flex">
+      <div className="overview-cards flex">
         <Card text="Unresolved" number="60" />
         <Card text="Overdue" number="16" />
         <Card text="Open" number="43" />

@@ -1,4 +1,4 @@
-.card {
+.overview-card {
   width: 258px;
   height: 134px;
   border-radius: 8px;
@@ -6,7 +6,7 @@
   background: var(--grayscale-white, #fff);
   margin-right: 35px;
 }
-.card:hover {
+.overview-card:hover {
   border: 1px solid var(--accent-default, #3751ff);
   color: var(--accent-default, #3751ff);
 }

@@ -2,7 +2,7 @@ import "../OverviewCard/card.css";
 
 function Card({ text, number }) {
   return (
-    <div className="card">
+    <div className="overview-card">
       <p className="text">{text}</p>
       <p className="number">{number}</p>
     </div>

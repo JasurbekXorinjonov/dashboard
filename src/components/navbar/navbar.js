@@ -2,11 +2,15 @@ import Search from "../images/icons/search.svg";
 import Notification from "../images/icons/notification.svg";
 import Admin from "../images/admin-icon-png-12.jpg";
 import "./navbar.css";
+import { Routes, Route } from "react-router-dom";
 
 function Navbar() {
   return (
     <div className="navbar-container">
-      <h1 className="navbar-title">Overview</h1>
+      <Routes>
+        <Route path="/" element={<h1 className="navbar-title">Overview</h1>} />
+        <Route path="main" element={<h1 className="navbar-title">Tickets</h1>} />
+      </Routes>
       <img src={Search} alt="Search icon" />
       <img src={Notification} alt="Notification icon" className="notic-icon" />
       <button className="btn-admin">
